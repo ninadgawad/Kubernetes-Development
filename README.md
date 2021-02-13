@@ -16,3 +16,16 @@ kubectl create deploy nginx-deploy --image=redis --replicas=5  -n development
 ### Config Maps
 kubectl get configmaps
 kubectl create configmap webapp-config-map --from-literal=APP_COLOR=darkblue
+
+## Secrets 
+kubectl get secrets
+kubectl describe secret <secret-name>
+kubectl create secret generic some-secret --from-literal=SOME_VAR=SomeTopSecret --from-literal=ANOTHER_VAR=SomeAnotherValue
+
+## Get the Pod Definition in yaml format 
+kubectl get pod pod-name -o yaml > pod-definition.yaml
+
+## Get details about pods definition file format and object
+kubectl  explain pods --recursive 
+kubectl  explain pods --recursive | less
+kubectl  explain pods --recursive | grep -A10 envFrom
