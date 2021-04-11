@@ -1,0 +1,10 @@
+apiVersion: skaffold/v2beta13
+kind: Config
+build:
+  artifacts:
+  - image: gcr.io/k8s-skaffold/skaffold-custom
+    custom:
+      buildCommand: ./build.sh
+      dependencies:
+        paths:
+        - .
