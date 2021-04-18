@@ -1,4 +1,6 @@
-# Kubernetes
+# What is Kubernetes (k8s)
+Its a open source container orchestration tool designed to automate, deploying, scaling and operating containerized applications
+
 
 
 ## Imperative Commands
