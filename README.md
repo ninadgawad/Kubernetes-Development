@@ -11,6 +11,15 @@ Its a open source container orchestration tool designed to automate, deploying, 
 7. Persistent volume management
 8. Seamless horizontal scalling
 
+## K8s Terms
+- Clusters
+- Nodes (master & worker)
+- Pods
+- Services
+- Deployments
+
+
+
 
 ## Imperative Commands
 
