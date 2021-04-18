@@ -1,6 +1,15 @@
 # What is Kubernetes (k8s)
 Its a open source container orchestration tool designed to automate, deploying, scaling and operating containerized applications
 
+## Key features:
+1. Declarative configurations
+2. Deploy Containers
+3. Wire up networks
+4. Expose and scale services
+5. Atuomated deployment rollout and roolback 
+6. RBAC
+7. Persistent volume management
+8. Seamless horizontal scalling
 
 
 ## Imperative Commands
