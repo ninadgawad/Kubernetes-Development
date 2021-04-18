@@ -49,3 +49,8 @@ kubectl get pod pod-name -o yaml > pod-definition.yaml
 kubectl  explain pods --recursive 
 kubectl  explain pods --recursive | less
 kubectl  explain pods --recursive | grep -A10 envFrom
+
+
+---
+## References
+https://kubernetes.io/docs/home/
