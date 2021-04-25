@@ -30,6 +30,14 @@ Its a open source container orchestration tool designed to automate, deploying, 
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/)
 - kubeadm
 
+## K8s Architecture 
+- Its a container orchestration tool 
+- Composed of group of Nodes
+- Conatiners run in a Pod
+- Nodes are machine in clustres 
+- Control plane run's on master node and schedules containers on thde nodes
+- Pod can have one or more containers
+- K8s service exposes Pods to Cluster and outside them 
 
 
 ## Imperative Commands
