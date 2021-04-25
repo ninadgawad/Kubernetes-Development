@@ -10,6 +10,8 @@ Its a open source container orchestration tool designed to automate, deploying, 
 6. RBAC
 7. Persistent volume management
 8. Seamless horizontal scalling
+9. Supports Linux & Windows Clusters
+
 
 ## K8s Terms
 - Clusters
@@ -17,6 +19,11 @@ Its a open source container orchestration tool designed to automate, deploying, 
 - Pods
 - Services
 - Deployments
+
+## Other tools and Competitiors
+1. DC/OS
+2. Amazon ECS
+3. Docker Swarm Mode
 
 
 
