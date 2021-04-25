@@ -25,6 +25,10 @@ Its a open source container orchestration tool designed to automate, deploying, 
 2. Amazon ECS
 3. Docker Swarm Mode
 
+## Deploying Kubernetes
+- [Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/)
+- kubeadm
 
 
 
