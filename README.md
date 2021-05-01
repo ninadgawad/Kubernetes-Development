@@ -88,12 +88,15 @@ echo "source < (kubectl completion bash)" >> ~/.bash_profile
 Press tab or press tab twice 
 
 kubectl <tab>
-  
-  
+
+
 kubectl get nodes <tab>
 
 
+pods = po 
 
+
+--sort-by='{.metadata.creationTimestamp}'
 
 
 
