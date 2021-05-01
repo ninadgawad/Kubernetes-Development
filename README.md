@@ -100,6 +100,9 @@ pods = po
 
 
 
+kubectl create namespace tricks -o yaml --dry-run
+
+
 
 
 ---
