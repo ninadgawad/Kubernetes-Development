@@ -69,6 +69,9 @@ kubectl  explain pods --recursive
 kubectl  explain pods --recursive | less
 kubectl  explain pods --recursive | grep -A10 envFrom
 
+## Get Volumnes 
+kubectl get pv pvc 
+
 
 ---
 ## References
