@@ -72,6 +72,10 @@ kubectl  explain pods --recursive | grep -A10 envFrom
 ## Get Volumnes 
 kubectl get pv pvc 
 
+## Common multi container patterns
+1. Sidecar pattern
+2. Ambassador pattern
+3. Adapter pattern
 
 ---
 ## References
