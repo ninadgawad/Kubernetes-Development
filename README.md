@@ -77,6 +77,28 @@ kubectl get pv pvc
 2. Ambassador pattern
 3. Adapter pattern
 
+
+## Tips and tricks for kubectl 
+kubectl completion --help
+
+Enable: 
+source < (kubectl completion bash)
+echo "source < (kubectl completion bash)" >> ~/.bash_profile
+
+Press tab or press tab twice 
+
+kubectl <tab>
+  
+  
+kubectl get nodes <tab>
+
+
+
+
+
+
+
+
 ---
 ## References
 https://kubernetes.io/docs/home/
