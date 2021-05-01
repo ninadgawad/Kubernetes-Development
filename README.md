@@ -104,6 +104,7 @@ kubectl create namespace tricks -o yaml --dry-run
 
 
 
+kubectl get pod -n app -o yaml --export | wcl -l
 
 ---
 ## References
