@@ -108,4 +108,5 @@ kubectl get pod -n app -o yaml --export | wcl -l
 
 ---
 ## References
-https://kubernetes.io/docs/home/
+- https://kubernetes.io/docs/home/
+- https://www.cncf.io/certification/ckad/
