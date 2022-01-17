@@ -1,0 +1,13 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: ninad-pod
+  labels:
+    app: ninad-app
+    type: spring-boot-api
+    version: v1.0.0
+    releaseDate: 1/17/2022
+spec:
+  containers:
+    - name: mginx-container
+      image: nginx
