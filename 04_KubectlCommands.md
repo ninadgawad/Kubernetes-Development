@@ -1,6 +1,9 @@
 # Kubernetes Commands
 Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications.
 
+### POD
+![pod](./Kubernetes_Pod.png)
+
 ## kubectl
 ```
 kubectl run <name>
@@ -16,6 +19,7 @@ kubectl create namespace
 - **Node:** Is a worker machine
 - **Kubelet:** Agent that run's on the server or worker nodes
 - **kubectl:** Kube control tool 
+- **Pod:** Its a single instance of an application
 
 
 
