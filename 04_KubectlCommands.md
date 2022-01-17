@@ -6,10 +6,11 @@ Kubernetes is an open source container orchestration engine for automating deplo
 
 ## kubectl
 ```
-kubectl run <name>
 kubectl cluster-info
-kubectl get nodes
 kubectl create namespace
+kubectl run nginx --image nginx
+kubectl get pods
+kubectl get nodes
 ```
 
 
